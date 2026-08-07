@@ -1,6 +1,6 @@
-# MiniDEXED Touch Chipdown custom edition
+# MicroDEXED Touch Chipdown custom edition
 
-This is an attempt to create a custom PCB of the MiniDEXED Touch (MDT) project to satisfy my own requirements:
+This is an attempt to create a custom PCB of the MicroDEXED Touch (MDT) project to satisfy my own requirements:
 
 - No modules, all chips should be soldered on PCB
 - Avoid THT components as much as possible

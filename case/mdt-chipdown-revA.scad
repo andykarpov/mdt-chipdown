@@ -225,9 +225,11 @@ cutoutsBack =
 
 ridgeExtBack = 
 [
-//    [10.1, 4.0, 12.0, yappCoordBox], // up on usb-c
-//    [50.1, 16, 13.4, yappCoordBox], // up on hdmi
-    
+    [71.9, 14.8, 7.8, yappCoordBox], // up on usb-a
+    [53.9, 10.0, 8.8, yappCoordBox], // up on usb-c
+    [38.2, 6, 9.8, yappCoordBox], // Midi in
+    [25.1, 6, 9.8, yappCoordBox], // Midi out
+    [12.4, 6, 9.8, yappCoordBox], // Audio out
 ];
 
 //-- front plane  -- origin is pcb[0,0,0]
@@ -240,8 +242,7 @@ cutoutsFront =
 
 ridgeExtFront = 
 [
-//    [47.7, 4.4, 12.2, yappCoordBox], // Tape up
-//    [57.4, 4.4, 12.2, yappCoordBox], // Audio up
+    [54.8, 14.4, 13.8, yappCoordBox], // SD
 ];
 
 
@@ -258,8 +259,10 @@ cutoutsRight =
 
 ridgeExtRight = 
 [
-//    [56.3, 6, 11.8, yappCoordBox], // Tape up
-//    [17.0, 6, 11.8, yappCoordBox], // Audio up
+    [51.1, 4.4, 3.7, 0, 3.0, yappCircle, yappCenter, yappCoordPCB], // B1
+    [21.1, 4.4, 3.7, 0, 3.0, yappCircle, yappCenter, yappCoordPCB], // B2
+    [40.4, 3.2, 3.7, 0, 3.0, yappCircle, yappCenter, yappCoordPCB], // Led1
+    [31.6, 3.2, 3.7, 0, 3.0, yappCircle, yappCenter, yappCoordPCB], // Led2
 ];
 
 //-- right plane  -- origin is pcb[0,0,0]

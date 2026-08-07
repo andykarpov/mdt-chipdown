@@ -13,3 +13,8 @@ This is an attempt to create a custom PCB of the MicroDEXED Touch (MDT) project 
 
 [![photo](docs/mdt-chipdown-revA-bottom.png)](docs/mdt-chipdown-revA-bottom.png?raw=true)
 
+## Case for rev.A
+
+[![photo](docs/mdt-chipdown-revA-case1.png)](docs/mdt-chipdown-revA-case1.png?raw=true)
+
+[![photo](docs/mdt-chipdown-revA-case2.png)](docs/mdt-chipdown-revA-case2.png?raw=true)

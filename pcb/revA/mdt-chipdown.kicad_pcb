@@ -6716,6 +6716,18 @@
 			(uuid "c6d0a25b-dc6d-408c-9d88-85f5b7a93e02")
 		)
 		(embedded_fonts no)
+		(model "kicad-embed://Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
@@ -7382,6 +7394,18 @@
 			(uuid "64b55ff7-326c-478d-84b6-7eed446b9ff8")
 		)
 		(embedded_fonts no)
+		(model "kicad-embed://Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -7758,6 +7782,18 @@
 			(uuid "79fa3412-105a-4d54-bf01-36069fab8caf")
 		)
 		(embedded_fonts no)
+		(model "kicad-embed://Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "PCM_Package_SO_AKL:SO-5_4.4x3.6mm_P1.27mm"
 		(layer "F.Cu")
@@ -8607,6 +8643,17 @@
 			(uuid "bc28ffe4-e235-4da5-a545-19d8887b4c05")
 		)
 		(embedded_fonts no)
+		(model "kicad-embed://Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 		(layer "F.Cu")
@@ -9300,6 +9347,17 @@
 			(uuid "d72fb5c2-4ecc-4095-a19a-7ef0259165f0")
 		)
 		(embedded_fonts no)
+		(model "kicad-embed://Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -11013,6 +11071,17 @@
 			(uuid "8bad9c9e-cd67-4d2f-8e50-cfe5725bde08")
 		)
 		(embedded_fonts no)
+		(model "kicad-embed://Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
@@ -14747,6 +14816,18 @@
 			(uuid "c24e86dc-04d7-4366-9636-ef8d2e5c88d5")
 		)
 		(embedded_fonts no)
+		(model "kicad-embed://Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
@@ -15728,6 +15809,17 @@
 			(uuid "4afc6d14-19ca-4bc5-915c-627bd7eb648c")
 		)
 		(embedded_fonts no)
+		(model "kicad-embed://Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 		(layer "F.Cu")
@@ -40716,6 +40808,65 @@
 				P2yIyZfmQtynLzX8t1L42yzGHI/7Vz//Vlddr1WT/q8iX+HNn9c2fsZJrh8=|
 			)
 			(checksum "7BAEB6FC88D800FA6C1B6142067A835C")
+		)
+		(file
+			(name "Mounting_Wuerth_WA-SMSI-M3_H11mm_9774110360.step")
+			(type model)
+			(data |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|
+			)
+			(checksum "FC95EA10E56857A64BF74D6397B873F9")
 		)
 		(file
 			(name "PJ320D.STEP")

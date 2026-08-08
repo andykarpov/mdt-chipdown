@@ -356,5 +356,24 @@ displayMounts =
     [38.4,49, 57, 49.2, 0,0,0,0,0,0, 49.2, 80.1, 0,0, 0,0,0, 0.0, yappCenter  ], 
 ];
 
+//===================================================================
+//  *** Images ***
+//-------------------------------------------------------------------
+//  Default origin = yappCoordBox: box[0,0,0]
+//
+//  Parameters:
+//   p(0) = posx
+//   p(1) = posy/z
+//   p(2) = rotation degrees CCW
+//   p(3) = depth : positive values go into case (Remove) negative values are raised (Add)
+//   p(4) = { yappLeft, yappRight, yappFront, yappBack, yappLid, yappBase } : plane
+//   p(5) = "image filename.svg"
+//  Optional:
+//   p(6) = Scale : Default = 1 : ratio to scale image by (making it larger or smaller)
+//-------------------------------------------------------------------
+imagesPlane =
+[
+[ 73.5, 47, 90, 0.8, yappLid, "./models/logo.svg", 0.07 ]
+];
 
 YAPPgenerate();

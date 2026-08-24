@@ -10,6 +10,16 @@ This is an attempt to create a custom PCB of the MicroDEXED Touch (MDT) project 
 - Current tested revision: **revA**
 - Current dev revision: **revB**
 
+## PCB changelog & ERRATA:
+
+- revA - initial revision
+- revB:
+    - 4-layers PCB
+    - Replaced teensy module with a set of chips
+    - Added additional SD card
+    - Added additional LED from the supplementary MCU
+    - Changed USB Host power path
+
 ## Rev.A Renders
 
 [![photo](docs/mdt-chipdown-revA-top.png)](docs/mdt-chipdown-revA-top.png?raw=true)

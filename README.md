@@ -5,7 +5,10 @@ This is an attempt to create a custom PCB of the MicroDEXED Touch (MDT) project 
 - No modules, all chips should be soldered on PCB
 - Avoid THT components as much as possible
 
-**Warning! Work in progress. The revA is untested and unreleased yet.**
+**Warning! Work in progress. The revB is untested and unreleased yet.**
+
+- Current tested revision: **revA**
+- Current dev revision: **revB**
 
 ## Rev.A Renders
 

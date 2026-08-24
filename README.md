@@ -21,3 +21,10 @@ This is an attempt to create a custom PCB of the MicroDEXED Touch (MDT) project 
 [![photo](docs/mdt-chipdown-revA-case1.png)](docs/mdt-chipdown-revA-case1.png?raw=true)
 
 [![photo](docs/mdt-chipdown-revA-case2.png)](docs/mdt-chipdown-revA-case2.png?raw=true)
+
+## Rev.B Renders
+
+[![photo](docs/mdt-chipdown-revB-top.png)](docs/mdt-chipdown-revB-top.png?raw=true)
+
+[![photo](docs/mdt-chipdown-revB-bottom.png)](docs/mdt-chipdown-revB-bottom.png?raw=true)
+

@@ -7103,6 +7103,12 @@
 		(uuid "d6f5a30a-00f8-4d25-87ea-79cc5bdf7211")
 	)
 	(junction
+		(at 170.18 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6489d87-4a97-4407-9de3-aff036701589")
+	)
+	(junction
 		(at 203.2 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7552,7 +7558,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 167.64) (xy 116.84 167.64)
+			(xy 113.03 167.64) (xy 115.57 167.64)
 		)
 		(stroke
 			(width 0)
@@ -8192,6 +8198,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 68.58) (xy 161.29 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e090c1f-511a-49b9-a004-c97c701e9a1b")
+	)
+	(wire
+		(pts
 			(xy 259.08 119.38) (xy 260.35 119.38)
 		)
 		(stroke
@@ -8572,16 +8588,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 170.18 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5883d73-3068-44d6-8329-5317de6a8c34")
-	)
-	(wire
-		(pts
 			(xy 229.87 124.46) (xy 236.22 124.46)
 		)
 		(stroke
@@ -8662,7 +8668,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 68.58) (xy 161.29 66.04)
+			(xy 170.18 66.04) (xy 170.18 68.58)
 		)
 		(stroke
 			(width 0)
@@ -10576,6 +10582,30 @@
 			)
 		)
 	)
+	(global_label "USB_VBUS"
+		(shape input)
+		(at 115.57 167.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2935fec-48af-4397-8988-5aede0f0531a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.2314 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "I2S_LRCK"
 		(shape input)
 		(at 201.93 116.84 180)
@@ -10780,7 +10810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05174903-c3db-4416-847a-6741ccf94b6c")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR015"
 			(at 100.33 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10839,7 +10869,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR022")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -10856,7 +10886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "09dee18f-4d4a-4667-89ae-f7f5792c2476")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR017"
 			(at 107.95 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10916,7 +10946,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR021")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11011,7 +11041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ed09be4-0aa7-44e3-a82a-84dc261b9701")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR056"
 			(at 259.08 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -11071,7 +11101,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR058")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11088,7 +11118,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "109ce677-0931-485c-84e9-978c6a576a8f")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 243.84 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11150,7 +11180,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11167,7 +11197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1218d1ac-4769-4644-9fd8-ff5062f47260")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR010"
 			(at 68.58 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -11227,7 +11257,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR014")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11244,7 +11274,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16d7954a-d1d2-425f-86c0-b2d0790fca7d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR044"
 			(at 203.2 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11304,7 +11334,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR070")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -11490,7 +11520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dd40647-6c2c-481d-b547-0ac9dcf5f312")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR023"
 			(at 134.62 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11550,7 +11580,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR036")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -11568,7 +11598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23920ece-4102-4803-9422-703d5c5721d1")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR041"
 			(at 208.28 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11629,7 +11659,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR050")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -11807,7 +11837,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26ae06f7-6bca-49fa-a491-6594d678cc09")
-		(property "Reference" "C20"
+		(property "Reference" "C10"
 			(at 213.36 24.892 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11869,7 +11899,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C20")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -11886,7 +11916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "284acab2-fe26-4f59-80b6-2b3c81b74eda")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 140.97 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11945,7 +11975,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12042,7 +12072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "29f637e9-52a3-4992-acad-55e9cf8becc1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR09"
 			(at 62.23 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12101,7 +12131,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR012")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -12118,7 +12148,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2accd924-7024-40dd-af62-5e0feedd22ad")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR038"
 			(at 190.5 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12178,7 +12208,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR049")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12354,7 +12384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2baf7261-6c09-49c9-81c5-a06f1ac1fd17")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR042"
 			(at 198.12 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12414,7 +12444,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR044")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12511,7 +12541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f5324c3-a78a-4069-b5fc-804b13df88a8")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR022"
 			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -12571,7 +12601,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR027")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12588,7 +12618,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30e7e165-9ba4-4b75-b793-da6529c4b6e5")
-		(property "Reference" "C14"
+		(property "Reference" "C17"
 			(at 250.1392 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12650,7 +12680,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C14")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -12668,7 +12698,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3101a732-2e06-4b26-91fb-a3fc71a2bccc")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR027"
 			(at 142.24 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -12728,7 +12758,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR065")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -12746,7 +12776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31619c45-fe24-48c0-b7ff-63eab309b729")
-		(property "Reference" "J5"
+		(property "Reference" "J1"
 			(at 266.7 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12819,7 +12849,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "J5")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -12836,7 +12866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34bdbcc3-1821-4363-a832-a8c42878580d")
-		(property "Reference" "C21"
+		(property "Reference" "C12"
 			(at 222.25 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12898,7 +12928,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C21")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -12915,7 +12945,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "356014e9-4879-4999-8015-13fdebed3362")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 170.18 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12974,7 +13004,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12992,7 +13022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "359501f8-ecd6-4cbe-8aa9-b83f0f6c70a1")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 175.26 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -13052,7 +13082,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13156,7 +13186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "373ae18f-71fe-49df-af6e-1de748ffbd58")
-		(property "Reference" "J6"
+		(property "Reference" "J2"
 			(at 266.7 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13229,7 +13259,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -13246,7 +13276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38774dfe-22ea-4bd3-b620-ceb1e382315c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR025"
 			(at 135.89 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13306,7 +13336,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR018")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13323,7 +13353,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "393b2c11-2664-4e19-991d-4e67452073cd")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR054"
 			(at 256.54 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13383,7 +13413,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR057")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -13666,7 +13696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d2e6f6a-9776-4ba4-8002-a28a650b323b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 217.17 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13726,7 +13756,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -13743,7 +13773,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "436aa08a-b046-4cfd-baef-dd996a1554e0")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 145.034 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13800,7 +13830,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -13817,7 +13847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43c21cb8-b625-42d0-b873-be7c0a5de38d")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 158.75 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13879,7 +13909,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13897,7 +13927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a7db81b-b79b-4861-bdcb-a5d609928352")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR039"
 			(at 201.93 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13958,7 +13988,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR048")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13975,7 +14005,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b1b5f05-71ed-457b-b604-3e9720487fc9")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR018"
 			(at 107.95 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14035,7 +14065,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR034")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14052,7 +14082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d392f61-1160-431b-87f2-2e6b2a9d4a3a")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR026"
 			(at 135.89 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -14112,7 +14142,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR019")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14130,7 +14160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e74cd9e-4a89-4475-bbb5-a2e4d60d838a")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 74.93 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -14191,7 +14221,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14208,7 +14238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "521bb586-803d-4223-9d52-e6b76d15445f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 132.08 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14267,7 +14297,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -14284,7 +14314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "53bdff2c-aadd-4973-af48-d93c248d18f0")
-		(property "Reference" "H5"
+		(property "Reference" "H6"
 			(at 162.814 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14341,7 +14371,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "H5")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -14358,7 +14388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "58020a7b-44f3-4260-ac18-e94fe92f7690")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR045"
 			(at 223.52 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -14418,7 +14448,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR064")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -14525,7 +14555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "622e3765-9055-4694-b5a8-aa1a0592623d")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 153.67 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14587,7 +14617,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -14604,7 +14634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65875ab2-0ece-444e-8e54-566a535062e8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR043"
 			(at 200.66 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14664,7 +14694,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR051")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -14758,7 +14788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6754cd3b-9333-412e-873b-0929dd422f69")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 221.8533 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14876,7 +14906,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -14893,7 +14923,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6ac8ff22-24a5-4d62-a191-5999c9f38d23")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR048"
 			(at 231.14 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14953,7 +14983,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR069")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14971,7 +15001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ccd601c-2ab0-4852-abc6-7c07d0b7a662")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR035"
 			(at 175.26 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -15031,7 +15061,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR025")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -15048,7 +15078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d43ab5c-f4b3-4f71-b956-93ef883448a0")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR057"
 			(at 266.7 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -15108,7 +15138,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR062")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -15196,7 +15226,7 @@
 	(symbol
 		(lib_name "VCC3_3_3")
 		(lib_id "vcc33:VCC3_3")
-		(at 161.29 66.04 0)
+		(at 170.18 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15205,8 +15235,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fe5681c-a757-4ee8-956e-4e4cc97be958")
-		(property "Reference" "#PWR032"
-			(at 161.29 69.85 0)
+		(property "Reference" "#PWR033"
+			(at 170.18 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15217,7 +15247,7 @@
 			)
 		)
 		(property "Value" "VCC3_3"
-			(at 161.7218 61.6458 0)
+			(at 170.6118 61.6458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15227,7 +15257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 66.04 0)
+			(at 170.18 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15238,7 +15268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 66.04 0)
+			(at 170.18 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15249,7 +15279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 66.04 0)
+			(at 170.18 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15264,7 +15294,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15281,7 +15311,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71c93d93-a12e-4d31-b8e8-c8861b9e7f1a")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 213.614 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15381,7 +15411,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15596,7 +15626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75e2f3eb-9e49-4e6b-9278-f7e527b87f9a")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 204.47 72.898 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15658,7 +15688,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15765,7 +15795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a56305a-9804-4d20-a3ff-6012662476a3")
-		(property "Reference" "C22"
+		(property "Reference" "C11"
 			(at 209.55 97.79 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15827,7 +15857,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C22")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15844,7 +15874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ab711b1-c05b-4fa5-b09b-513a7f74eea8")
-		(property "Reference" "C12"
+		(property "Reference" "C15"
 			(at 239.9792 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15906,7 +15936,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C12")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -15923,7 +15953,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c241d17-b660-4d74-a29e-247ff283cf27")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 201.93 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15985,7 +16015,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16002,7 +16032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fb7fe45-7b36-4edf-96e1-1e95f66de46f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR051"
 			(at 248.92 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -16062,7 +16092,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR054")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16161,7 +16191,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "80f030f9-2131-4a34-848c-aa4e3cf52099")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 109.3978 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16223,86 +16253,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 116.84 167.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8406e984-90b8-41a8-8790-50dc71c96cd3")
-		(property "Reference" "#PWR015"
-			(at 113.03 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 120.65 167.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 116.84 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7d243ec8-2414-48f3-91ef-135ea0b98719")
-		)
-		(instances
-			(project "mdt-chipdown"
-				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR015")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16320,7 +16271,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84ea5f26-6de5-429a-8484-661eccbc5985")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 217.17 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -16380,7 +16331,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -16471,7 +16422,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8610e93d-fec6-466a-8a9b-f11289502573")
-		(property "Reference" "C16"
+		(property "Reference" "C19"
 			(at 252.6792 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16533,7 +16484,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C16")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -16550,7 +16501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8847ea23-62a3-44fe-825f-71b5c4464353")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 45.72 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16610,7 +16561,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -16708,7 +16659,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91995d46-dc17-49b6-8973-8389d76a7e20")
-		(property "Reference" "C10"
+		(property "Reference" "C13"
 			(at 229.8192 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16770,7 +16721,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C10")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -16788,7 +16739,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9216aff8-6e6b-434e-90c9-b346bb47705a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR014"
 			(at 96.52 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -16848,7 +16799,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -16866,7 +16817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93f53bee-ae51-4735-b7d5-f31d1666f21c")
-		(property "Reference" "LOGO2"
+		(property "Reference" "LOGO3"
 			(at 276.86 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -16924,7 +16875,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "LOGO2")
+					(reference "LOGO3")
 					(unit 1)
 				)
 			)
@@ -17027,7 +16978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9605a943-91d0-4621-842a-eef884f7c6eb")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 68.58 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -17086,7 +17037,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17103,7 +17054,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99ac447c-21c1-4c73-a873-aa8b543ae190")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 236.22 111.5822 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17165,7 +17116,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17182,7 +17133,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f0078f7-e856-4210-a15b-bdd6f41ebcc0")
-		(property "Reference" "C13"
+		(property "Reference" "C16"
 			(at 242.5192 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17244,7 +17195,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C13")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -17262,7 +17213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fbaef2f-f613-4bd4-a7bf-531733919d55")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 187.96 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -17322,7 +17273,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17418,7 +17369,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a308c3a2-4d82-4b63-b0f6-2cb625f2e984")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 200.152 25.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17480,7 +17431,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -17497,7 +17448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a61d3c3d-3fd6-48a1-963a-4aa86e229a6e")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR050"
 			(at 246.38 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -17557,7 +17508,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR053")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17574,7 +17525,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab5081e2-ce98-4205-80f6-3128d90a6b5a")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 45.72 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -17634,7 +17585,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17653,7 +17604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0622518-34e1-41ea-844b-c4c26a2d6951")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 102.87 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17727,7 +17678,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -17822,7 +17773,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "b1b2d71f-ae5b-4fb3-b1b3-90ef665254e8")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 266.7 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17922,7 +17873,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -17939,7 +17890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5566fdd-e640-4348-81ed-3d05cd81d739")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR052"
 			(at 250.19 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -17999,7 +17950,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR061")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -18181,7 +18132,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bac34c93-fa5c-44f5-9910-6292a7c2faed")
-		(property "Reference" "R7"
+		(property "Reference" "R5"
 			(at 100.33 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18243,7 +18194,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -18350,7 +18301,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bea1a49b-771d-4e61-b1e6-8cf91948dafa")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR016"
 			(at 102.87 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -18409,7 +18360,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR047")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18674,7 +18625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c087b6d5-2b55-48eb-8cc4-72fe13714d27")
-		(property "Reference" "C11"
+		(property "Reference" "C14"
 			(at 229.8192 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18736,7 +18687,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C11")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -18754,7 +18705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3e2a185-8b50-4d9d-bf57-d907b99a7c61")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR032"
 			(at 168.91 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -18814,7 +18765,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR068")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18832,7 +18783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c43d9c24-962f-43e9-aa10-c68e3ba8b55f")
-		(property "Reference" "LOGO3"
+		(property "Reference" "LOGO1"
 			(at 254 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -18890,7 +18841,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "LOGO3")
+					(reference "LOGO1")
 					(unit 1)
 				)
 			)
@@ -18907,7 +18858,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c76ec8ab-4a57-4638-b1c7-299ee694a7cd")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 44.45 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -18967,7 +18918,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -18984,7 +18935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8b7a098-dfdf-4af1-ad76-141865a5b7f5")
-		(property "Reference" "C15"
+		(property "Reference" "C18"
 			(at 257.81 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19046,7 +18997,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C15")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -19064,7 +19015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb6dee6d-8d8c-4cd2-ba36-a93cb9029eb7")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR029"
 			(at 151.13 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -19124,7 +19075,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR066")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -19142,7 +19093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ceaaeb2c-93e9-45c4-b5a6-b37cfb9c7b66")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR07"
 			(at 58.42 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -19201,7 +19152,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR010")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -19304,7 +19255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4a3ffdd-ffc0-4603-8faf-7dd7d4bfd4bd")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR053"
 			(at 250.19 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19364,7 +19315,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR063")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -19381,7 +19332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4dfc03d-f2eb-46b0-af18-2d31b5a9d097")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 158.75 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19443,7 +19394,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -19460,7 +19411,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daa3657d-7442-404c-aed5-f236cfb371ab")
-		(property "Reference" "C19"
+		(property "Reference" "C21"
 			(at 260.2992 143.51 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19522,7 +19473,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C19")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -19539,7 +19490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db8e6f6e-81c1-4c11-bdc1-dbed198ead00")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR040"
 			(at 203.2 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -19599,7 +19550,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR043")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19617,7 +19568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e05a9547-3ad2-4a71-ba14-0b1b81fe64b0")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR020"
 			(at 132.08 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -19677,7 +19628,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -19872,7 +19823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e30fa86b-4763-4a04-94d5-94ad55d46b70")
-		(property "Reference" "H7"
+		(property "Reference" "H5"
 			(at 162.56 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19934,7 +19885,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "H7")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -20110,7 +20061,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e94e4ab6-b906-4758-8daa-740b696e3e3a")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 161.29 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -20169,7 +20120,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -20187,7 +20138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9cf4a33-b3ec-40c4-a3fd-a96a5bea11fa")
-		(property "Reference" "LOGO1"
+		(property "Reference" "LOGO2"
 			(at 265.43 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -20245,7 +20196,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "LOGO1")
+					(reference "LOGO2")
 					(unit 1)
 				)
 			)
@@ -20343,7 +20294,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eb1d0702-f37b-4874-996c-70d3838c67c2")
-		(property "Reference" "H6"
+		(property "Reference" "H8"
 			(at 171.704 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20400,7 +20351,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "H6")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -20418,7 +20369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb6c31e0-2505-46b0-ac9a-772db4e99107")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR030"
 			(at 160.02 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -20478,7 +20429,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR067")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -20495,7 +20446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eba6cbcb-ed5d-4467-83d2-3cd49b85275d")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 151.13 62.4332 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20559,7 +20510,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -20663,7 +20614,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eece00f0-7af8-48e6-b8ec-c57efa5e0080")
-		(property "Reference" "H8"
+		(property "Reference" "H7"
 			(at 171.45 177.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20725,7 +20676,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "H8")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -20742,7 +20693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f82d168b-5036-4f22-b2a5-d651c9a7493b")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR049"
 			(at 236.22 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -20802,7 +20753,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR052")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -20820,7 +20771,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8e4d15a-5b46-4f0a-9ded-a51b49dc782a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR055"
 			(at 252.73 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -20880,7 +20831,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR05")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -20897,7 +20848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9cf2add-e9b1-4a6c-94dd-534b4b551c85")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 66.04 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -20957,7 +20908,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20974,7 +20925,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb984b8f-9272-4d42-b3da-be2d47ca4204")
-		(property "Reference" "C18"
+		(property "Reference" "C20"
 			(at 266.7 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21036,7 +20987,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "C18")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -21053,7 +21004,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc607d2d-514f-4fd4-bb0b-90f7d4db97e4")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR012"
 			(at 76.2 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -21113,7 +21064,7 @@
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR016")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)

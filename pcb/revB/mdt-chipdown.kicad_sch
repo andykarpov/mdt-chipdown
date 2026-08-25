@@ -12046,6 +12046,17 @@
 				)
 			)
 		)
+		(property "HighlightPins" "1"
+			(at 167.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "588c0cfc-4243-4915-9172-c06d996cd83a")
 		)
@@ -12831,6 +12842,17 @@
 				)
 			)
 		)
+		(property "HighlightPins" "2,3,4,5"
+			(at 264.16 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "e7e80759-d9a2-41b5-a01e-0b5550fdabf6")
 		)
@@ -13231,6 +13253,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 264.16 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HighlightPins" "2,3,4,5"
 			(at 264.16 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -13900,6 +13933,17 @@
 				)
 			)
 		)
+		(property "HighlightPins" "2"
+			(at 158.75 158.75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43a423cd-6fdc-4275-8887-66e3efc7c31a")
 		)
@@ -14519,6 +14563,17 @@
 				)
 			)
 		)
+		(property "HighlightPins" "A,B,S1"
+			(at 124.46 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "C"
 			(uuid "e4a35535-15d7-4a79-97b8-2a0b2d944047")
 		)
@@ -14833,6 +14888,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 217.17 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HighlightPins" "15,14,13,17"
 			(at 217.17 127 0)
 			(hide yes)
 			(show_name no)
@@ -15356,6 +15422,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 214.63 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HighlightPins" "3,4,5,6,7,8,10,11,12,13"
 			(at 214.63 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17864,6 +17941,17 @@
 				(justify left)
 			)
 		)
+		(property "HighlightPins" "2"
+			(at 264.16 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebf450ed-6be3-4d15-9226-933a8f6ab0be")
 		)
@@ -18176,6 +18264,17 @@
 		)
 		(property "Description" ""
 			(at 100.33 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HighlightPins" "2"
+			(at 100.33 49.53 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18500,6 +18599,17 @@
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 124.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HighlightPins" "A,B,S1"
 			(at 124.46 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -19385,6 +19495,17 @@
 				)
 			)
 		)
+		(property "HighlightPins" "2"
+			(at 158.75 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e352300b-693e-4ec2-aeef-f70c99874ad7")
 		)
@@ -19701,6 +19822,17 @@
 				)
 			)
 		)
+		(property "HighlightPins" "5"
+			(at 85.09 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "c3d85690-347d-492c-8c6a-8fcc055788bf")
 		)
@@ -19946,6 +20078,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 167.64 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "HighlightPins" "1"
 			(at 167.64 124.46 0)
 			(hide yes)
 			(show_name no)

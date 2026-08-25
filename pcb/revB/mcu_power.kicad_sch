@@ -8993,6 +8993,17 @@
 				)
 			)
 		)
+		(property "HighlightPins" "3"
+			(at 73.66 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "b6660865-e249-4163-90bc-6c849595b4d2")
 		)

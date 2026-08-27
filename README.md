@@ -13,6 +13,9 @@ This is an attempt to create a custom PCB of the MicroDEXED Touch (MDT) project 
 ## PCB changelog & ERRATA:
 
 - revA - initial revision
+    - Note: Jumpers to select MIDI IN/OUT standard should be removed, instead of them please use 0 Ohm resistors
+    - Latest revA contains the following changes: jumpers replaced with solder jumpers
+    - The overall display height is slightly higher than expected. Please use 8.5mm standoffs for it. Also the plastic housing from the display pin headers should be removed and the pin height should be reduced to fit the desired connection height of 8.5mm
 - revB:
     - 4-layers PCB
     - Replaced teensy module with a set of chips

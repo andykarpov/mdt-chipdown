@@ -38,13 +38,14 @@ include <./library/YAPPgenerator_v3.scad>
 printBaseShell    = true;
 printLidShell     = true;
 printSwitchExtenders  = false;
+printBoard        = true;
 
 
 myPcb = "./models/mdt-chipdown-revA.stl";
 myDispPcb = "./models/3_2tft.stl";
 offsetDisp = 11+1.6;
 
-if (true)
+if (printBoard)
 {
   translate([-31.4, -45.7, 5.1]) 
   {
@@ -237,12 +238,12 @@ ridgeExtBack =
 // (1) = posz
 cutoutsFront = 
 [
-    [59.5, 7.2, 14.4, 2, 1, yappRoundedRect, yappCenter, yappCoordPCB], // SD
+    [59.5, 7.0, 14.4, 2, 1, yappRoundedRect, yappCenter, yappCoordPCB], // SD
 ];
 
 ridgeExtFront = 
 [
-    [54.8, 14.4, 13.8, yappCoordBox], // SD
+    [54.8, 14.4, 13.6, yappCoordBox], // SD
 ];
 
 
@@ -353,7 +354,8 @@ labelsPlane = [
 //-------------------------------------------------------------------
 displayMounts =
 [
-    [38.4,49, 57, 49.2, 0,0,0,0,0,0, 49.2, 80.1, 0,0, 0,0,0, 0.0, yappCenter  ], 
+    // x, y,  h,                                w
+    [38.4,49, 55.25+1, 49.2, 0,0,0,0,0,0, 49.2, 77.9+1, 0,0, 0,0,0, 0.0, yappCenter  ], 
 ];
 
 //===================================================================
@@ -373,7 +375,7 @@ displayMounts =
 //-------------------------------------------------------------------
 imagesPlane =
 [
-[ 73.5, 47, 90, 0.8, yappLid, "./models/logo.svg", 0.07 ]
+[ 74.5, 47, 90, 0.8, yappLid, "./models/logo.svg", 0.07 ]
 ];
 
 YAPPgenerate();

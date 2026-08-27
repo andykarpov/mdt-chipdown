@@ -84,15 +84,15 @@
           ""
         ],
         [
-          "copper_edge_clearance|139038864|113375710|b0f05122-3150-4a18-b9ab-96ab05b0b613|ffe36618-a256-46a0-bd39-1284e10f2fe1",
+          "copper_edge_clearance|138684000|113534400|1adbcaa3-a113-4865-8106-9e890771dbf9|ffe36618-a256-46a0-bd39-1284e10f2fe1",
           ""
         ],
         [
-          "copper_edge_clearance|139046716|34019599|a545b9f5-59e8-44d8-aab6-242b1ca167f7|7e903dfd-1ddd-4323-b3b2-ac0c92cc0c2c",
+          "copper_edge_clearance|138684000|33934400|927e3b32-6bcc-4b97-aef7-74cac1b877e3|7e903dfd-1ddd-4323-b3b2-ac0c92cc0c2c",
           ""
         ],
         [
-          "copper_edge_clearance|48188678|110522296|c326bda0-4b2c-4ba6-b5ea-23b3fccc68b8|4169f6b1-a6e9-44f1-a01d-24df0673bf15",
+          "copper_edge_clearance|48056800|110236000|07e86cbd-a538-4fe8-a8cf-b4b0abb74867|4169f6b1-a6e9-44f1-a01d-24df0673bf15",
           ""
         ],
         [
@@ -726,7 +726,7 @@
         "uuid": "8761c4bf-5316-457a-a770-398e72936388"
       }
     ],
-    "used_designators": "C1-22,C25-35,C48,C52,C75,C77-79,J1-5,USB1-2,OC1,H1-8,SW1-4,#PWR1-70,#PWR104-111,#PWR170-174,#PWR230-232,ENC1-2,D1-4,U1-5,U12,U21,LOGO1-3,F1-2,R1-14,TP1-6,JP1-4,BL1,TRS1-3",
+    "used_designators": "F1-2,LOGO1-3,U1-5,U12,U21,D1-4,TRS1-3,BL1,JP1-6,TP1-6,R1-14,C1-22,C25-35,C48,C52,C75,C77-79,USB1-2,J1-5,OC1,H1-8,SW1-4,#PWR1-70,#PWR104-111,#PWR170-174,#PWR230-232,ENC1-2",
     "variants": []
   },
   "sheets": [

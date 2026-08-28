@@ -38,13 +38,14 @@ include <./library/YAPPgenerator_v3.scad>
 printBaseShell    = true;
 printLidShell     = true;
 printSwitchExtenders  = false;
+printPCB = true;
 
 
 myPcb = "./models/mdt-chipdown-revB.stl";
 myDispPcb = "./models/3_2tft.stl";
 offsetDisp = 11+1.6;
 
-if (true)
+if (printPCB)
 {
   translate([-31.4, -45.7, 5.1]) 
   {
@@ -232,13 +233,22 @@ ridgeExtBack =
     [12.4, 6, 9.8, yappCoordBox], // Audio out
 ];
 
+module fingerScoopFront() {
+  sphere(r=8, $fn=50);
+}
+
+module yappFrontRoundCutout(r, h) {
+    translate([0, 0, h * 0.8]) 
+        sphere(r = r, $fn = 60);
+}
+
 //-- front plane  -- origin is pcb[0,0,0]
 // (0) = posy
 // (1) = posz
 cutoutsFront = 
 [
     [55.0, 1.2, 14.4, 2, 1, yappRoundedRect, yappCenter, yappCoordPCB], // SD1
-    [36.5, 1.2, 14.4, 2, 1, yappRoundedRect, yappCenter, yappCoordPCB], // SD1
+    [36.5, 1.2, 14.4, 2, 1, yappRoundedRect, yappCenter, yappCoordPCB], // SD2
 ];
 
 ridgeExtFront = 
@@ -354,9 +364,11 @@ labelsPlane = [
 //    n(d) = [yappPCBName, "XXX"] : Specify a PCB. Defaults to [yappPCBName, "Main"]
 //    n(e) = {yappSelfThreading} : Replace the pins with self threading holes
 //-------------------------------------------------------------------
+
 displayMounts =
 [
-    [38.4,49, 57, 49.2, 0,0,0,0,0,0, 49.2, 80.1, 0,0, 0,0,0, 0.0, yappCenter  ], 
+    // x, y,  h,                                w
+    [38.4,49, 55.25+1, 49.2, 0,0,0,0,0,0, 49.2, 77.9+1, 0,0, 0,0,0, 0.0, yappCenter  ], 
 ];
 
 //===================================================================

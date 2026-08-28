@@ -6252,16 +6252,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 43.18) (xy 198.12 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e05036-1c89-4b90-8944-140b3b5e8a8e")
-	)
-	(wire
-		(pts
 			(xy 247.65 77.47) (xy 247.65 69.85)
 		)
 		(stroke
@@ -6682,6 +6672,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 78.74) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c87b36e-4aae-49f3-afd1-f0ef0ab4d75d")
+	)
+	(wire
+		(pts
 			(xy 185.42 116.84) (xy 189.23 116.84)
 		)
 		(stroke
@@ -6689,36 +6689,6 @@
 			(type default)
 		)
 		(uuid "3e790efd-73ab-47fb-82b2-ddd117de1dfa")
-	)
-	(wire
-		(pts
-			(xy 205.74 43.18) (xy 207.01 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "420526ef-3b81-4a21-a9e5-45b58b082bde")
-	)
-	(wire
-		(pts
-			(xy 207.01 78.74) (xy 208.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45fb0e6c-01f5-4316-8d03-490747be5184")
-	)
-	(wire
-		(pts
-			(xy 185.42 40.64) (xy 198.12 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "469ffccc-0195-4f58-acd4-d9ad994ff491")
 	)
 	(wire
 		(pts
@@ -6829,6 +6799,16 @@
 			(type default)
 		)
 		(uuid "54e643a9-be64-4973-b9b1-2d71dacdfde6")
+	)
+	(wire
+		(pts
+			(xy 185.42 40.64) (xy 189.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b23398-e190-48c2-ac24-26b80b9b6cb3")
 	)
 	(wire
 		(pts
@@ -7069,6 +7049,16 @@
 			(type default)
 		)
 		(uuid "78a38858-1262-43d7-9f44-9ad813a724a1")
+	)
+	(wire
+		(pts
+			(xy 185.42 43.18) (xy 189.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "794e36c9-7dbf-4233-9a98-472a18da67d3")
 	)
 	(wire
 		(pts
@@ -7632,16 +7622,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 40.64) (xy 207.01 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c37e9e45-c432-402a-95da-55bff1d246ee")
-	)
-	(wire
-		(pts
 			(xy 262.89 41.91) (xy 266.7 41.91)
 		)
 		(stroke
@@ -7669,16 +7649,6 @@
 			(type default)
 		)
 		(uuid "c5de8a55-b8f2-4e89-a43e-f5cfcb9645ff")
-	)
-	(wire
-		(pts
-			(xy 185.42 78.74) (xy 199.39 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caef19d3-56d4-47f6-a66f-6260e45a390e")
 	)
 	(wire
 		(pts
@@ -9572,7 +9542,7 @@
 	)
 	(global_label "I2S_BCLK"
 		(shape input)
-		(at 207.01 40.64 0)
+		(at 189.23 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9582,7 +9552,7 @@
 		)
 		(uuid "5cc3cbd8-c872-473c-9b5f-2622f560f4e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.8247 40.64 0)
+			(at 201.0447 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,7 +10430,7 @@
 	)
 	(global_label "I2S_LRCK"
 		(shape input)
-		(at 207.01 43.18 0)
+		(at 189.23 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10470,7 +10440,7 @@
 		)
 		(uuid "dc75ec06-875b-4cb7-9ba5-d1e72d0903b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.8247 43.18 0)
+			(at 201.0447 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10724,7 +10694,7 @@
 	)
 	(global_label "I2S_DATA"
 		(shape input)
-		(at 208.28 78.74 0)
+		(at 189.23 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10734,7 +10704,7 @@
 		)
 		(uuid "f83c266d-92ec-4734-990d-d68d33c01b74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.6714 78.74 0)
+			(at 200.6214 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11121,13 +11091,11 @@
 		)
 		(property "LCSC" "C2236"
 			(at 133.35 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -11221,107 +11189,6 @@
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388/580ac0e0-b726-4daa-80de-f0017265378f"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 201.93 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c641476-ef2c-47ed-a070-c1a64359d511")
-		(property "Reference" "R21"
-			(at 206.502 38.354 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 202.184 40.64 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 201.93 38.862 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "HighlightPins" "2"
-			(at 201.93 40.64 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25315"
-			(at 201.93 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b853d48-d502-4920-870a-9d21f31106d9")
-		)
-		(pin "2"
-			(uuid "15452766-8a80-4305-8949-a0541bd95fca")
-		)
-		(instances
-			(project "mdt-chipdown"
-				(path "/8761c4bf-5316-457a-a770-398e72936388/580ac0e0-b726-4daa-80de-f0017265378f"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -11472,13 +11339,11 @@
 		)
 		(property "LCSC" "C17414"
 			(at 241.3 65.786 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11563,13 +11428,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 39.624 30.988 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11717,13 +11580,11 @@
 		)
 		(property "LCSC" "C3216699"
 			(at 163.195 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "K7"
@@ -12329,13 +12190,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 131.826 19.558 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12742,13 +12601,11 @@
 		)
 		(property "LCSC" "C1727"
 			(at 134.366 161.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13066,13 +12923,11 @@
 		)
 		(property "LCSC" "C152848"
 			(at 86.106 161.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13170,13 +13025,11 @@
 		)
 		(property "LCSC" "C5333729"
 			(at 36.83 50.7999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -13445,13 +13298,11 @@
 		)
 		(property "LCSC" "C17414"
 			(at 241.3 73.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13464,107 +13315,6 @@
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388/580ac0e0-b726-4daa-80de-f0017265378f"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 203.2 78.74 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6b9e3bdb-fc80-40c4-9a00-a65f60eb49bf")
-		(property "Reference" "R23"
-			(at 203.2 76.454 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 203.2 78.74 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 203.2 76.962 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "HighlightPins" "2"
-			(at 203.2 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25315"
-			(at 203.2 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea63fd2e-5073-4f81-a029-90698f029329")
-		)
-		(pin "2"
-			(uuid "528260bd-50f3-400f-ac7f-339dd283b5bf")
-		)
-		(instances
-			(project "mdt-chipdown"
-				(path "/8761c4bf-5316-457a-a770-398e72936388/580ac0e0-b726-4daa-80de-f0017265378f"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -13636,13 +13386,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 272.796 19.558 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13727,13 +13475,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 39.624 69.088 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13909,13 +13655,11 @@
 		)
 		(property "LCSC" "C2056583"
 			(at 107.95 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14213,13 +13957,11 @@
 		)
 		(property "LCSC" "C2831359"
 			(at 100.33 80.0099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14413,13 +14155,11 @@
 		)
 		(property "LCSC" "C17513"
 			(at 49.53 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14737,13 +14477,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 104.394 58.928 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15005,13 +14743,11 @@
 		)
 		(property "LCSC" "C91145"
 			(at 239.395 17.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -15117,13 +14853,11 @@
 		)
 		(property "LCSC" "C17414"
 			(at 241.3 58.166 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15464,107 +15198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 201.93 43.18 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d68cc4fb-86ac-4fb3-8cf2-6d45541e1ea7")
-		(property "Reference" "R22"
-			(at 206.248 45.466 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 201.93 43.18 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 201.93 41.402 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "HighlightPins" "2"
-			(at 201.93 43.18 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25315"
-			(at 201.93 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "735a4ba9-db79-4248-90fd-27f2439acf41")
-		)
-		(pin "2"
-			(uuid "47c7a7fe-69d2-41a3-9e37-0c62a104ac66")
-		)
-		(instances
-			(project "mdt-chipdown"
-				(path "/8761c4bf-5316-457a-a770-398e72936388/580ac0e0-b726-4daa-80de-f0017265378f"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 127 161.29 0)
 		(unit 1)
@@ -15630,13 +15263,11 @@
 		)
 		(property "LCSC" "C1727"
 			(at 121.666 161.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15721,13 +15352,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 77.724 100.838 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16117,13 +15746,11 @@
 		)
 		(property "LCSC" "C3216699"
 			(at 238.76 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "K7"
@@ -16652,13 +16279,11 @@
 		)
 		(property "LCSC" "C26113"
 			(at 104.3178 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16987,13 +16612,11 @@
 		)
 		(property "LCSC" "C152848"
 			(at 73.406 161.798 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17155,13 +16778,11 @@
 		)
 		(property "LCSC" "C25611"
 			(at 121.92 139.8778 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17337,13 +16958,11 @@
 		)
 		(property "LCSC" "C5333729"
 			(at 36.83 87.6299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "5"
@@ -17457,13 +17076,11 @@
 		)
 		(property "LCSC" "C91145"
 			(at 99.695 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "8"
@@ -17669,13 +17286,11 @@
 		)
 		(property "LCSC" "C19188468"
 			(at 39.37 117.856 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17849,13 +17464,11 @@
 		)
 		(property "LCSC" "C17414"
 			(at 241.3 80.772 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18050,13 +17663,11 @@
 		)
 		(property "LCSC" "C15643"
 			(at 85.09 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"

@@ -7558,6 +7558,12 @@
 		(uuid "0dfd1562-5231-411a-a3b3-a73807593c34")
 	)
 	(junction
+		(at 36.83 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "104e3ea9-0551-4abf-a8be-a7d00ea9ffc3")
+	)
+	(junction
 		(at 132.08 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7604,12 +7610,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3aa4247d-7b0c-4c3b-aa72-9f2599d49af8")
-	)
-	(junction
-		(at 36.83 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "42b13251-6c5c-4217-8324-3e18c21d87e6")
 	)
 	(junction
 		(at 83.82 123.19)
@@ -7780,16 +7780,6 @@
 			(type default)
 		)
 		(uuid "037e3715-553c-4c50-b9b8-704319c6ea1b")
-	)
-	(wire
-		(pts
-			(xy 219.71 147.32) (xy 222.25 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f49bc0-fc1e-4d26-9437-4eb419ac4347")
 	)
 	(wire
 		(pts
@@ -8283,16 +8273,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 152.4) (xy 204.47 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b4080b8-c27b-499c-a73d-1d1eeb686a9b")
-	)
-	(wire
-		(pts
 			(xy 53.34 167.64) (xy 62.23 167.64)
 		)
 		(stroke
@@ -8530,6 +8510,16 @@
 			(type default)
 		)
 		(uuid "6bdb043b-eedf-419a-a46b-2b398d6bebc0")
+	)
+	(wire
+		(pts
+			(xy 219.71 147.32) (xy 217.17 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf3f6eb-75b1-4def-933d-0b44ae180c78")
 	)
 	(wire
 		(pts
@@ -9180,16 +9170,6 @@
 			(type default)
 		)
 		(uuid "ba36ba5b-9197-4f84-922a-2aeef5426649")
-	)
-	(wire
-		(pts
-			(xy 189.23 152.4) (xy 193.04 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0446e9-d670-480f-bf16-e04a76bde14f")
 	)
 	(wire
 		(pts
@@ -11715,13 +11695,11 @@
 		)
 		(property "LCSC" "C7420333"
 			(at 51.054 81.534 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -11764,7 +11742,7 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 259.207 133.9342 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,13 +11863,11 @@
 		)
 		(property "LCSC" "C17710"
 			(at 243.84 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12130,13 +12106,11 @@
 		)
 		(property "LCSC" "C2346"
 			(at 27.94 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "SH"
@@ -12229,13 +12203,11 @@
 		)
 		(property "LCSC" "C26023"
 			(at 53.594 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12476,13 +12448,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 173.99 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12646,13 +12616,11 @@
 		)
 		(property "LCSC" "C2749"
 			(at 72.39 169.2909 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12736,13 +12704,11 @@
 		)
 		(property "LCSC" "C8649"
 			(at 213.36 24.892 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12914,13 +12880,11 @@
 		)
 		(property "LCSC" "C125050"
 			(at 167.64 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13237,13 +13201,11 @@
 		)
 		(property "LCSC" "C15850"
 			(at 126.746 72.898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13404,13 +13366,11 @@
 		)
 		(property "LCSC" "C17513"
 			(at 194.31 129.3622 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13572,13 +13532,11 @@
 		)
 		(property "LCSC" "C15850"
 			(at 250.1392 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13754,13 +13712,11 @@
 		)
 		(property "LCSC" "C5156614"
 			(at 266.7 29.2099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -13853,13 +13809,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 222.25 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14098,13 +14052,11 @@
 		)
 		(property "LCSC" "C53447038"
 			(at 29.21 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "S"
@@ -14208,13 +14160,11 @@
 		)
 		(property "LCSC" "C5156614"
 			(at 266.7 44.4499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -14786,13 +14736,11 @@
 		)
 		(property "LCSC" "C17513"
 			(at 158.75 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14880,13 +14828,11 @@
 		)
 		(property "LCSC" "C7420333"
 			(at 58.42 68.834 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -15221,83 +15167,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 189.23 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4eae6cc6-3713-47cc-bf60-241a6fd81379")
-		(property "Reference" "#PWR0117"
-			(at 189.23 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.357 156.7942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3383f15-2834-4584-bbfe-573f6b2e62a0")
-		)
-		(instances
-			(project "mdt-chipdown"
-				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 132.08 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -15599,15 +15468,13 @@
 				)
 			)
 		)
-		(property "LCSC" "C7435302"
+		(property "LCSC" "C462143"
 			(at 124.46 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "C"
@@ -15947,13 +15814,11 @@
 		)
 		(property "LCSC" "C107671"
 			(at 221.8533 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16047,7 +15912,7 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 229.1842 104.013 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16323,13 +16188,11 @@
 		)
 		(property "LCSC" "C17557"
 			(at 69.85 72.2122 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16503,13 +16366,11 @@
 		)
 		(property "LCSC" "C124407"
 			(at 213.614 71.374 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "11"
@@ -16629,13 +16490,11 @@
 		)
 		(property "LCSC" "C15850"
 			(at 164.592 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16719,13 +16578,11 @@
 		)
 		(property "LCSC" "C165948"
 			(at 31.75 98.806 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "B5"
@@ -16848,13 +16705,11 @@
 		)
 		(property "LCSC" "C17477"
 			(at 204.47 72.898 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16949,13 +16804,11 @@
 		)
 		(property "LCSC" "C17683617"
 			(at 148.59 155.194 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17039,13 +16892,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 209.55 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17129,13 +16980,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 239.9792 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17219,13 +17068,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 201.93 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17309,13 +17156,11 @@
 		)
 		(property "LCSC" "C402162"
 			(at 80.01 32.258 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17367,7 +17212,7 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 249.047 133.9342 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17491,13 +17336,11 @@
 		)
 		(property "LCSC" "C2749"
 			(at 80.01 107.0609 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17581,13 +17424,11 @@
 		)
 		(property "LCSC" "C17710"
 			(at 113.2078 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17823,13 +17664,11 @@
 		)
 		(property "LCSC" "C1728"
 			(at 252.6792 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17869,8 +17708,8 @@
 				)
 			)
 		)
-		(property "Value" "AGND"
-			(at 44.704 25.4 90)
+		(property "Value" "GND"
+			(at 44.196 25.4 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -17919,83 +17758,6 @@
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 204.47 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b6fb384-a264-4fc2-8a8b-349780228a30")
-		(property "Reference" "#PWR0118"
-			(at 204.47 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 204.597 156.7942 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.47 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae3eedca-c0a1-48e7-8303-a51131d915ec")
-		)
-		(instances
-			(project "mdt-chipdown"
-				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -18069,13 +17831,11 @@
 		)
 		(property "LCSC" "C20812"
 			(at 49.53 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -18159,13 +17919,11 @@
 		)
 		(property "LCSC" "C19110"
 			(at 229.8192 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18479,13 +18237,11 @@
 		)
 		(property "LCSC" "C17710"
 			(at 236.22 111.5822 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18646,13 +18402,11 @@
 		)
 		(property "LCSC" "C1728"
 			(at 242.5192 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18814,13 +18568,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 136.144 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18904,13 +18656,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 200.152 25.146 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19230,13 +18980,11 @@
 		)
 		(property "LCSC" "C87384"
 			(at 102.87 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "6"
@@ -19459,13 +19207,11 @@
 		)
 		(property "LCSC" "C5360898"
 			(at 266.7 69.8499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19626,13 +19372,11 @@
 		)
 		(property "LCSC" "C15850"
 			(at 56.896 171.958 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19813,13 +19557,11 @@
 		)
 		(property "LCSC" "C25315"
 			(at 106.68 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19914,13 +19656,11 @@
 		)
 		(property "LCSC" "C473837"
 			(at 148.59 165.354 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20080,13 +19820,11 @@
 		)
 		(property "LCSC" "C26023"
 			(at 53.594 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20180,15 +19918,13 @@
 				)
 			)
 		)
-		(property "LCSC" "C7435302"
+		(property "LCSC" "C462143"
 			(at 124.46 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "C"
@@ -20282,13 +20018,11 @@
 		)
 		(property "LCSC" "C511038"
 			(at 71.374 107.696 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20372,13 +20106,11 @@
 		)
 		(property "LCSC" "C15850"
 			(at 229.8192 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20770,13 +20502,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 75.438 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20860,13 +20590,11 @@
 		)
 		(property "LCSC" "C15850"
 			(at 257.81 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21186,13 +20914,11 @@
 		)
 		(property "LCSC" "C53447038"
 			(at 29.21 19.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "S"
@@ -21370,13 +21096,11 @@
 		)
 		(property "LCSC" "C17513"
 			(at 158.75 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21460,13 +21184,11 @@
 		)
 		(property "LCSC" "C1711"
 			(at 260.2992 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21719,13 +21441,11 @@
 		)
 		(property "LCSC" "C37658"
 			(at 87.376 69.342 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "4"
@@ -21821,32 +21541,30 @@
 		)
 		(property "LCSC" "C402162"
 			(at 77.978 135.128 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "66f768db-e1e5-458b-b3d1-b871115a024f")
+			(uuid "66f768db-e1e5-458b-b3d1-b871115a024e")
 		)
 		(pin "4"
-			(uuid "bc80fbdc-ac26-49d3-8127-2c9d1707ff3b")
+			(uuid "bc80fbdc-ac26-49d3-8127-2c9d1707ff3a")
 		)
 		(pin "5"
-			(uuid "809444fb-61bd-4694-8cf1-2a60a30bd75b")
+			(uuid "809444fb-61bd-4694-8cf1-2a60a30bd75a")
 		)
 		(pin "1"
-			(uuid "993c1d37-1702-4bce-b718-b94869a2b1b1")
+			(uuid "993c1d37-1702-4bce-b718-b94869a2b1b0")
 		)
 		(pin "6"
-			(uuid "7c13daf0-02fe-4541-b372-ab1de2fe2925")
+			(uuid "7c13daf0-02fe-4541-b372-ab1de2fe2924")
 		)
 		(pin "3"
-			(uuid "aa196c32-a64c-4f00-8a1d-507e1cf691b3")
+			(uuid "aa196c32-a64c-4f00-8a1d-507e1cf691b2")
 		)
 		(instances
 			(project "mdt-chipdown"
@@ -21924,13 +21642,11 @@
 		)
 		(property "LCSC" "C53447038"
 			(at 29.21 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "S"
@@ -22020,115 +21736,36 @@
 		)
 		(property "LCSC" "C402162"
 			(at 107.95 32.512 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "66f768db-e1e5-458b-b3d1-b871115a0250")
+			(uuid "66f768db-e1e5-458b-b3d1-b871115a024e")
 		)
 		(pin "4"
-			(uuid "bc80fbdc-ac26-49d3-8127-2c9d1707ff3c")
+			(uuid "bc80fbdc-ac26-49d3-8127-2c9d1707ff3a")
 		)
 		(pin "5"
-			(uuid "809444fb-61bd-4694-8cf1-2a60a30bd75c")
+			(uuid "809444fb-61bd-4694-8cf1-2a60a30bd75a")
 		)
 		(pin "1"
-			(uuid "993c1d37-1702-4bce-b718-b94869a2b1b2")
+			(uuid "993c1d37-1702-4bce-b718-b94869a2b1b0")
 		)
 		(pin "6"
-			(uuid "7c13daf0-02fe-4541-b372-ab1de2fe2926")
+			(uuid "7c13daf0-02fe-4541-b372-ab1de2fe2924")
 		)
 		(pin "3"
-			(uuid "aa196c32-a64c-4f00-8a1d-507e1cf691b4")
+			(uuid "aa196c32-a64c-4f00-8a1d-507e1cf691b2")
 		)
 		(instances
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
 					(reference "U11")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 222.25 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e27d6d82-99f4-42ce-b2e4-1b0384a0f711")
-		(property "Reference" "#PWR0116"
-			(at 222.25 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AGND"
-			(at 222.377 151.7142 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 222.25 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 222.25 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 222.25 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4935ccc-ca02-4712-8024-953d5898ca99")
-		)
-		(instances
-			(project "mdt-chipdown"
-				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "#PWR0116")
-					(unit 1)
 				)
 			)
 		)
@@ -22291,13 +21928,11 @@
 		)
 		(property "LCSC" "C125050"
 			(at 167.64 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22381,13 +22016,11 @@
 		)
 		(property "LCSC" "C25315"
 			(at 66.04 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22625,13 +22258,11 @@
 		)
 		(property "LCSC" "C20812"
 			(at 53.34 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -22866,13 +22497,11 @@
 		)
 		(property "LCSC" "C41414107"
 			(at 151.13 62.4332 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22888,96 +22517,6 @@
 			(project "mdt-chipdown"
 				(path "/8761c4bf-5316-457a-a770-398e72936388"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 196.85 152.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed49ec72-ad2d-4334-9637-2d568a83bbf4")
-		(property "Reference" "R24"
-			(at 196.85 147.1422 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 196.85 149.4536 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 196.85 154.178 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 196.85 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17513"
-			(at 196.85 147.1422 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "50ccad86-fc8c-4a1a-bb27-fa66976c6b86")
-		)
-		(pin "2"
-			(uuid "5b6cab8c-f704-4549-9f89-09aa0862bf35")
-		)
-		(instances
-			(project "mdt-chipdown"
-				(path "/8761c4bf-5316-457a-a770-398e72936388"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -23361,13 +22900,11 @@
 		)
 		(property "LCSC" "C15850"
 			(at 266.7 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

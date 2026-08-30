@@ -10158,7 +10158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:BGA196C80P14X14_1200X1200X152"
+		(property "Footprint" "MIMXRT1062DVJ6B:BGA196C80P14X14_1200X1200X152"
 			(at 141.732 156.972 0)
 			(hide yes)
 			(show_name no)

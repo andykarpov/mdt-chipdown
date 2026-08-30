@@ -78,6 +78,10 @@
       ],
       "drc_exclusions": [
         [
+          "courtyards_overlap|135105000|86922400|38a0e3cf-c1f1-4b08-9e81-c01b2dcceee9|58f704b5-3144-4c85-9724-9a10fc3ba6c3",
+          ""
+        ],
+        [
           "starved_thermal|101448000|39996200|ce1c22e7-646b-4206-9889-44737e941912|1bdfb32b-044f-43dd-a54b-21f5587b3caa|F.Cu",
           ""
         ],
@@ -99,10 +103,6 @@
         ],
         [
           "starved_thermal|107848000|39996200|ce1c22e7-646b-4206-9889-44737e941912|a0e0931b-f101-494c-bbe0-8c5f3f3a4ac9|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|65532000|59113500|ce1c22e7-646b-4206-9889-44737e941912|dd6fbea7-3a65-42be-b2a0-979d2db7b00e|F.Cu",
           ""
         ]
       ],
@@ -727,7 +727,7 @@
         "uuid": "8761c4bf-5316-457a-a770-398e72936388"
       }
     ],
-    "used_designators": "H1-8,R1-24,TP1-15,JP1-6,USB1-2,J1-7,D1-7,U1-12,U21,L1-3,OC1,Q1,ENC1-2,#PWR1-119,#PWR170-174,#PWR230-232,Y1-2,SW1-4,F1-2,LOGO1-3,IC1,BL1,TRS1-3,C1-53,C75,C77-79",
+    "used_designators": "ENC1-2,L1-3,OC1,Q1,D1-7,U1-12,U21,F1-2,LOGO1-3,C1-53,C75,C77-79,TRS1-3,BL1,IC1,SW1-4,H1-8,#PWR1-119,#PWR170-174,#PWR230-232,Y1-2,R1-24,TP1-15,JP1-6,USB1-2,J1-7",
     "variants": []
   },
   "sheets": [

@@ -6402,7 +6402,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 147.32) (xy 245.11 147.32)
+			(xy 248.92 149.86) (xy 245.11 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6872,7 +6872,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 154.94) (xy 245.11 154.94)
+			(xy 248.92 157.48) (xy 245.11 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6912,7 +6912,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 152.4) (xy 245.11 152.4)
+			(xy 248.92 154.94) (xy 245.11 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7222,7 +7222,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 149.86) (xy 245.11 149.86)
+			(xy 248.92 152.4) (xy 245.11 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7762,7 +7762,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 157.48) (xy 245.11 157.48)
+			(xy 248.92 160.02) (xy 245.11 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9140,7 +9140,7 @@
 	)
 	(global_label "CV_CLOCK_IN"
 		(shape input)
-		(at 245.11 149.86 180)
+		(at 245.11 152.4 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9150,7 +9150,7 @@
 		)
 		(uuid "18c6bd7d-cb9a-4532-917c-288203cc8885")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.7271 149.86 0)
+			(at 229.7271 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,7 +9980,7 @@
 	)
 	(global_label "MCP_INTA"
 		(shape input)
-		(at 245.11 154.94 180)
+		(at 245.11 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9990,7 +9990,7 @@
 		)
 		(uuid "9735264f-ffd2-4fc6-81a5-f79423b7d271")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.1743 154.94 0)
+			(at 233.1743 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10148,7 +10148,7 @@
 	)
 	(global_label "CV_GATE_IN"
 		(shape input)
-		(at 245.11 147.32 180)
+		(at 245.11 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10158,7 +10158,7 @@
 		)
 		(uuid "b74432a5-7168-431d-b6c8-1e08bb899001")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.4205 147.32 0)
+			(at 231.4205 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10652,7 +10652,7 @@
 	)
 	(global_label "~{MEM_CS}"
 		(shape input)
-		(at 245.11 157.48 180)
+		(at 245.11 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10662,7 +10662,7 @@
 		)
 		(uuid "f1187b5a-1774-47e0-be16-e56f49308fa6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.6259 157.48 0)
+			(at 234.6259 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10676,7 +10676,7 @@
 	)
 	(global_label "CV_IN"
 		(shape input)
-		(at 245.11 152.4 180)
+		(at 245.11 154.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10686,7 +10686,7 @@
 		)
 		(uuid "f1b44a0b-3dea-4003-b98e-1f50914d10f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.8633 152.4 0)
+			(at 236.8633 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11619,7 +11619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:BGA196C80P14X14_1200X1200X152"
+		(property "Footprint" "MIMXRT1062DVJ6B:BGA196C80P14X14_1200X1200X152"
 			(at 145.542 149.352 0)
 			(hide yes)
 			(show_name no)
@@ -13214,7 +13214,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.92 149.86 270)
+		(at 248.92 152.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13224,7 +13224,7 @@
 		(dnp no)
 		(uuid "608bd4c3-00f4-4f01-9bee-d08343ec650f")
 		(property "Reference" "TP4"
-			(at 255.524 149.86 90)
+			(at 255.524 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13234,7 +13234,7 @@
 			)
 		)
 		(property "Value" "CV CLOCK IN"
-			(at 252.222 152.4 90)
+			(at 252.222 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13245,7 +13245,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 248.92 154.94 0)
+			(at 248.92 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13256,7 +13256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 154.94 0)
+			(at 248.92 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13267,7 +13267,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.92 149.86 0)
+			(at 248.92 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13278,7 +13278,7 @@
 			)
 		)
 		(property "HighlightPins" "1"
-			(at 248.92 149.86 90)
+			(at 248.92 152.4 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14841,7 +14841,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.92 154.94 270)
+		(at 248.92 157.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14851,7 +14851,7 @@
 		(dnp no)
 		(uuid "bc116635-1f53-4024-abdf-e4f8e5c4b586")
 		(property "Reference" "TP6"
-			(at 255.524 154.94 90)
+			(at 255.524 157.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14861,7 +14861,7 @@
 			)
 		)
 		(property "Value" "MCP INTA"
-			(at 252.222 157.48 90)
+			(at 252.222 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14872,7 +14872,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 248.92 160.02 0)
+			(at 248.92 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14883,7 +14883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 160.02 0)
+			(at 248.92 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14894,7 +14894,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.92 154.94 0)
+			(at 248.92 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14905,7 +14905,7 @@
 			)
 		)
 		(property "HighlightPins" "1"
-			(at 248.92 154.94 90)
+			(at 248.92 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15143,7 +15143,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.92 152.4 270)
+		(at 248.92 154.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15153,7 +15153,7 @@
 		(dnp no)
 		(uuid "ca573584-42e6-4f65-b6a4-831e144094d9")
 		(property "Reference" "TP5"
-			(at 255.524 152.4 90)
+			(at 255.524 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15163,7 +15163,7 @@
 			)
 		)
 		(property "Value" "CV IN"
-			(at 252.222 154.94 90)
+			(at 252.222 157.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15174,7 +15174,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 248.92 157.48 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15185,7 +15185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 157.48 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15196,7 +15196,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.92 152.4 0)
+			(at 248.92 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15207,7 +15207,7 @@
 			)
 		)
 		(property "HighlightPins" "1"
-			(at 248.92 152.4 90)
+			(at 248.92 154.94 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16019,7 +16019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:BGA196C80P14X14_1200X1200X152"
+		(property "Footprint" "MIMXRT1062DVJ6B:BGA196C80P14X14_1200X1200X152"
 			(at 220.472 176.022 0)
 			(hide yes)
 			(show_name no)
@@ -16678,7 +16678,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.92 157.48 270)
+		(at 248.92 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16688,7 +16688,7 @@
 		(dnp no)
 		(uuid "dfc2539e-97e0-4dd7-9918-f7e8bb532912")
 		(property "Reference" "TP7"
-			(at 255.524 157.48 90)
+			(at 255.524 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16698,7 +16698,7 @@
 			)
 		)
 		(property "Value" "MEM CS"
-			(at 252.222 160.02 90)
+			(at 252.222 162.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16709,7 +16709,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 248.92 162.56 0)
+			(at 248.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16720,7 +16720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 162.56 0)
+			(at 248.92 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16731,7 +16731,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.92 157.48 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16742,7 +16742,7 @@
 			)
 		)
 		(property "HighlightPins" "1"
-			(at 248.92 157.48 90)
+			(at 248.92 160.02 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17504,7 +17504,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 248.92 147.32 270)
+		(at 248.92 149.86 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -17515,7 +17515,7 @@
 		(dnp no)
 		(uuid "f13f93d0-2746-4a1d-bc66-e391c8359079")
 		(property "Reference" "TP3"
-			(at 255.524 147.32 90)
+			(at 255.524 149.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17525,7 +17525,7 @@
 			)
 		)
 		(property "Value" "CV GATE IN"
-			(at 252.222 144.78 90)
+			(at 252.222 147.32 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17536,7 +17536,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 248.92 142.24 0)
+			(at 248.92 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17547,7 +17547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 142.24 0)
+			(at 248.92 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17558,7 +17558,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 248.92 147.32 0)
+			(at 248.92 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17569,7 +17569,7 @@
 			)
 		)
 		(property "HighlightPins" "1"
-			(at 248.92 147.32 90)
+			(at 248.92 149.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
